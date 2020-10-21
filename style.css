@@ -1,8 +1,97 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-img{
-    height:200px;
-    width:200px;
+
+body {
+    background: hsl(272, 99%, 54%);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70vh;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    align-self: center;
+    margin-top: 170px;
+}
+
+.container>.row {
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.profile-icon {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(245, 202, 139);
+
+}
+
+.name {
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.score {
+    font-size: xx-large;
+}
+
+.score>span {
+    margin: 0 5px;
+    justify-content: center;
+}
+
+.round-runs {
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strike-button {
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    background: linear-gradient(105deg, #4425ce, #45f035);
+    width: 300px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+#try-button {
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    background: linear-gradient(105deg, #4425ce, #45f035);
+    width: 150px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }

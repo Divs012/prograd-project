@@ -4,37 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+    <!-- CSS is add the styling -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
    <div class="container">
        <div class="row">
-           <div class="col"><img src="./assets/madrid.png" alt="Madrid"></div>
-           
-           <div >
-               <p>0</p>
-               <p>1</p>
-               <p>1</p>
-               <p>0</p>
-               <p>1</p>
-               <p>3-3</p>
-           </div>
-           
           
-               
-           <div class="col"><img src="./assets/huesca.png" alt="S.D Huesca"></div>
+           <div class="col">
+               <img class="profile-icon" src="./assets/madrid.png" alt="REAL MADRID">
+            <span class="name" id="team-1-name">Real Madrid</span>
+            <div class="row round-runs" id="team-1-round-runs" >
+               <span class="col">-</span>
+               <span class="col">-</span>
+               <span class="col">-</span>
+               <span class="col">-</span>
+               <span class="col">-</span>
+              
+             </div>
+           </div>
+           <div class="col">
+               <div class="row score">
+                   <span id="team-1-score">0</span>
+                   <span>-</span>
+                   <span id="team-2-score">0</span>
+               </div>
+           </div>
            
-           <div >
-               <p>1</p>
-               <p>1</p>
-               <p>1</p>
-               <p>0</p>
-               <p>0</p>
+               
+           <div class="col">
+               <img class="profile-icon"  src="./assets/huseca.png" alt="S.D HUESCA">
+           <span class="name"  id="team-2-name">Huseca</span>
+           <div class="row round-runs" id="team-2-round-runs" >
+               <span class="col">-</span>
+               <span class="col">-</span>
+               <span class="col">-</span>
+               <span class="col">-</span>
+               <span class="col">-</span>
                
            </div>
-<div><input type="submit" value="Try Again" ></div>
 
+       </div>
+   </div>
+   <div class="row">
+       <div class="col">
+       <button id="try-button">Try Again</button></div>
+       <div class="col">
+<button id="strike-button">Huesca STRIKE</button></div>
+   </div>
    </div>
 </body>
 </html>
