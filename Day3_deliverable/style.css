@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Times New Roman', Times, serif;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.container {
+   background-image: url("./assets/stadium.jpg");
+   height:790px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+
+}
+.container>.row {
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top:8%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:white;
+
+
+}
+
+img{
+    height: 150px;
+    width: 200px;
+   
+
+
+}
+.circle{
+     border-radius: 50%;
+     border: 2px solid rgb(15, 15, 15);
+     height:20px;
+     width:20px;
+/* }
+.finals{
+display: none; */
+}
+.name {
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(133, 72, 231);
+    
+}
+.shoot{
+    background: none;
+}
+.winner{
+    background: none;
+     font-weight: bold;
+}
+
+.shoot{
+    width:100px;
+    height:100px;
+    justify-content: flex-end;}
+
+
+.round-runs {
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top:0%;
+}
+
